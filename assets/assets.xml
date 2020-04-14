@@ -13,26 +13,26 @@
     <size nuser_actuator="5"/>
 
     <asset>
-        <mesh name="link0_col" file="../franka/meshes/collision/link0.stl"/>
-        <mesh name="link1_col" file="../franka/meshes/collision/link1.stl"/>
-        <mesh name="link2_col" file="../franka/meshes/collision/link2.stl"/>
-        <mesh name="link3_col" file="../franka/meshes/collision/link3.stl"/>
-        <mesh name="link4_col" file="../franka/meshes/collision/link4.stl"/>
-        <mesh name="link5_col" file="../franka/meshes/collision/link5.stl"/>
-        <mesh name="link6_col" file="../franka/meshes/collision/link6.stl"/>
-        <mesh name="link7_col" file="../franka/meshes/collision/link7.stl"/>
-        <mesh name="hand_col" file="../franka/meshes/collision/hand.stl"/>
-        <mesh name="finger_col" file="../franka/meshes/collision/finger.stl" scale='1.75 1.0 1.75'/>
-        <mesh name="link0_viz" file="../franka/meshes/visual/link0.stl"/>
-        <mesh name="link1_viz" file="../franka/meshes/visual/link1.stl"/>
-        <mesh name="link2_viz" file="../franka/meshes/visual/link2.stl"/>
-        <mesh name="link3_viz" file="../franka/meshes/visual/link3.stl"/>
-        <mesh name="link4_viz" file="../franka/meshes/visual/link4.stl"/>
-        <mesh name="link5_viz" file="../franka/meshes/visual/link5.stl"/>
-        <mesh name="link6_viz" file="../franka/meshes/visual/link6.stl"/>
-        <mesh name="link7_viz" file="../franka/meshes/visual/link7.stl"/>
-        <mesh name="hand_viz" file="../franka/meshes/visual/hand.stl"/>
-        <mesh name="finger_viz" file="../franka/meshes/collision/finger.stl" scale='1.75 1.0 1.75'/>
+        <mesh name="link0_col" file="../franka_sim/meshes/collision/link0.stl"/>
+        <mesh name="link1_col" file="../franka_sim/meshes/collision/link1.stl"/>
+        <mesh name="link2_col" file="../franka_sim/meshes/collision/link2.stl"/>
+        <mesh name="link3_col" file="../franka_sim/meshes/collision/link3.stl"/>
+        <mesh name="link4_col" file="../franka_sim/meshes/collision/link4.stl"/>
+        <mesh name="link5_col" file="../franka_sim/meshes/collision/link5.stl"/>
+        <mesh name="link6_col" file="../franka_sim/meshes/collision/link6.stl"/>
+        <mesh name="link7_col" file="../franka_sim/meshes/collision/link7.stl"/>
+        <mesh name="hand_col" file="../franka_sim/meshes/collision/hand.stl"/>
+        <mesh name="finger_col" file="../franka_sim/meshes/collision/finger.stl" scale='1.75 1.0 1.75'/>
+        <mesh name="link0_viz" file="../franka_sim/meshes/visual/link0.stl"/>
+        <mesh name="link1_viz" file="../franka_sim/meshes/visual/link1.stl"/>
+        <mesh name="link2_viz" file="../franka_sim/meshes/visual/link2.stl"/>
+        <mesh name="link3_viz" file="../franka_sim/meshes/visual/link3.stl"/>
+        <mesh name="link4_viz" file="../franka_sim/meshes/visual/link4.stl"/>
+        <mesh name="link5_viz" file="../franka_sim/meshes/visual/link5.stl"/>
+        <mesh name="link6_viz" file="../franka_sim/meshes/visual/link6.stl"/>
+        <mesh name="link7_viz" file="../franka_sim/meshes/visual/link7.stl"/>
+        <mesh name="hand_viz" file="../franka_sim/meshes/visual/hand.stl"/>
+        <mesh name="finger_viz" file="../franka_sim/meshes/collision/finger.stl" scale='1.75 1.0 1.75'/>
     </asset>
 
     <default>
