@@ -11,10 +11,26 @@
     <include file="assets/assets.xml"/>
     <compiler meshdir=""/>
 
+    <equality>
+      <weld body1="vive_controller" body2="panda0_link7" solref="0.01 1" solimp=".25 .25 0.001"/>
+    </equality>
+
+
     <worldbody>
-        <include file="assets/chain0.xml"/>
+        <!-- Mocap -->
+        <body name="vive_controller" mocap="true" pos="0 0 1.895" euler="-1.57 0 -.785">
+            <geom type="box" group="2" pos='0 0 .142' size="0.02 0.10 0.03" contype="0" conaffinity="0" rgba=".9 .7 .95 .2" euler="0 0 -.785"/>
+        </body>
+
+        <!-- Robot -->
+        <body pos='0 0 .775' euler='0 0 1.57'>
+            <geom type='cylinder' size='.120 .4' pos='-.04 0 -.4'/>
+            <include file="assets/chain0.xml"/>
+            <include file="assets/chain0_overlay.xml"/>
+        </body>
+
     </worldbody>
 
-    <include file='assets/actuator0.xml'/>
 
+    <include file='assets/teleop_actuator.xml'/>
 </mujoco>
