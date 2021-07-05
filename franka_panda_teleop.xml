@@ -1,6 +1,6 @@
 <mujoco model="franka_panda v200">
 <!-- =================================================
-    Copyright 2018 Vikash Kumar 
+    Copyright 2018 Vikash Kumar
     Model   :: Franka (MuJoCoV2.0)
     Author  :: Vikash Kumar (vikashplus@gmail.com)
     source  :: https://github.com/vikashplus/franka_sim
@@ -9,6 +9,7 @@
 
     <include file="assets/basic_scene.xml"/>
     <include file="assets/assets.xml"/>
+    <include file="assets/gripper_assets.xml"/>
     <compiler meshdir=""/>
 
     <equality>
