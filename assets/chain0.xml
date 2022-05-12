@@ -49,6 +49,7 @@
                                     <geom class="panda_viz" mesh="link7_viz" rgba=".8 .8 .82 1"/>
                                     <geom class="panda_grey_viz" mesh="link7_dark_viz" pos="0 0 -.0008"/>
                                     <geom class="panda_col" mesh="link7_col" mass="0.2"/>
+                                    <camera name="Franka_wrist_cam" pos=".050 -.050 0.15" euler="2.95 0.2 -.787"/>
 
                                     <!-- End Effector -->
                                     <body name="panda0_gripper">
