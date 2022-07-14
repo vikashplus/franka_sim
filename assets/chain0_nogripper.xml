@@ -51,6 +51,8 @@
                                     <geom class="panda_col" mesh="link7_col" mass="0.2"/>
 
                                     <!-- End Effector attaches here-->
+                                    <camera name="Franka_wrist_cam" pos=".050 -.050 0.15" euler="2.95 0.2 -.787"/>
+                                    <site name='end_effector' pos='0 0 .210' size='0.01' euler='0 0 -0.785398'/>
 
                                 </body>
                             </body>

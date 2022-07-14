@@ -50,12 +50,12 @@
                                     <geom class="panda_grey_viz" mesh="link7_dark_viz" pos="0 0 -.0008"/>
                                     <geom class="panda_col" mesh="link7_col" mass="0.2"/>
                                     <camera name="Franka_wrist_cam" pos=".050 -.050 0.15" euler="2.95 0.2 -.787"/>
+                                    <site name='end_effector' pos='0 0 .210' size='0.01' euler='0 0 -0.785398'/>
 
                                     <!-- End Effector -->
                                     <body name="panda0_gripper">
                                         <geom pos="0 0 0.107" quat="0.92388 0 0 -0.382683" class="panda_viz" mesh="hand_viz"/>
                                         <geom pos="0 0 0.107" quat="0.92388 0 0 -0.382683" class="panda_col" mesh="hand_col" mass="0.81909"/>
-                                        <site name='end_effector' pos='0 0 .210' size='0.01' euler='0 0 -0.785398'/>
 
                                         <body name="panda0_leftfinger" pos="0 0 0.1654" quat="0.92388 0 0 -0.382683" childclass='panda_finger'>
                                             <inertial pos="-1.57863e-05 0.0118731 0.0434103" quat="0.705868 0.0310348 -0.0314925 0.706962" mass="0.0927059" diaginertia="6.57134e-05 6.09611e-05 1.09932e-05" />
