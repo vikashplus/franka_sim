@@ -17,5 +17,6 @@
     </worldbody>
 
     <include file='assets/actuator0.xml'/>
+    <!-- <include file='assets/gripper_actuator0.xml'/> -->
 
 </mujoco>
