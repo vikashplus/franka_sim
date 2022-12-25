@@ -43,10 +43,10 @@
             <joint pos="0 0 0" axis="0 0 1" limited="true"/>
             <position forcelimited="true" ctrllimited="true" user="1002 40 2001 -0.005 0.005"/>
             <default class="panda_viz">
-                <geom contype="0" conaffinity="0" group="0" type="mesh" rgba=".92 .92 .95 1" mass="0"/>
+                <geom contype="0" conaffinity="0" group="0" type="mesh" rgba=".92 .92 .95 1"/>
             </default>
             <default class="panda_grey_viz">
-                <geom contype="0" conaffinity="0" group="0" type="mesh" rgba=".4 .4 .4 1" mass="0"/>
+                <geom contype="0" conaffinity="0" group="0" type="mesh" rgba=".4 .4 .4 1"/>
             </default>
 
             <default class="panda_col">
