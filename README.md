@@ -18,4 +18,5 @@ The above adaptations, however, minors, are a result of the practical wisdom acc
 Robot's Meshes and specs are from
 
 1. https://github.com/frankaemika/franka_ros
-1. https://frankaemika.github.io/docs/control_parameters.html#constants
+
+1. https://frankarobotics.github.io/docs/robot_specifications.html
